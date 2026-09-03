@@ -13,14 +13,17 @@
   "author": "",
   "license": "ISC",
   "type": "module",
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "@google/genai": "^1.51.0",
-    "@img/sharp-linux-x64": "0.34.5",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/level": "^6.0.3",
+    "@types/multer": "^2.1.0",
     "@types/node": "^25.5.0",
     "@types/passport": "^1.0.17",
     "@types/passport-google-oauth20": "^2.0.17",
@@ -38,7 +41,6 @@
     "multer": "^2.1.1",
     "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
-    "sharp": "^0.34.5",
     "sqlite": "^5.1.1",
     "sqlite3": "^6.0.1",
     "ts-node": "^10.9.2",
@@ -49,7 +51,7 @@
     "y-websocket": "^3.0.0",
     "yjs": "^13.6.30"
   },
-  "devDependencies": {
-    "@types/multer": "^2.1.0"
+  "optionalDependencies": {
+    "@img/sharp-linux-x64": "0.34.5"
   }
 }
